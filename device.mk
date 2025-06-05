@@ -43,3 +43,4 @@ PRODUCT_COPY_FILES += \
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung_slsi-linaro/exynos/cpboot_v3
+$(call inherit-product, vendor/lindroid/lindroid.mk)
